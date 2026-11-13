@@ -8,3 +8,4 @@ def capitalize_words(value: str) -> str:
   делая заглавными первые буквы каждого слова.
   """
   return " ".join(word.capitalize() for word in value.split())
+"""make the string uppercased"""
